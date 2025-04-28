@@ -31,3 +31,5 @@ The test procedure is to
 - load the TLE
 - propagate the orbit to `t_min_since_epoch`
 - compare the position and velocity with the expected values
+
+Note: Some of the TLEs have a catalog number starting with `T`. This should be handled according to the Alpha5 rules (https://www.space-track.org/documentation#/tle-alpha5)
